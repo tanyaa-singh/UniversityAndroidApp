@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="Home"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_directions_black"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_event_black"
+            android:title="News/Events" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Photo Gallery" />
+        <item
+            android:id="@+id/nav_course"
+            android:title="Courses Offered"
+            android:icon="@drawable/ic_library_books_black">
+
+        </item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_power_settings_new_black"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

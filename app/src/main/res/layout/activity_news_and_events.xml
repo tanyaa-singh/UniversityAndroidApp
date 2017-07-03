@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.abhinavsatija.newsevents.MainActivity">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Executive Management Program - Fundamentals of Clinical Lab Management"
+            android:id="@+id/textView"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="34dp"
+            android:layout_alignParentStart="true"
+            android:textColor="#800000" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date :Apr 01, 2016 | End Date :Jun 30, 2016"
+            android:id="@+id/textView2"
+            android:textSize="10sp"
+            android:layout_below="@+id/textView"
+            android:layout_alignEnd="@+id/textView11"
+            android:textColor="#800000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="An executive management program &quot;Fundamentals of Clinical Lab Management&quot; is being conducted under Dr TMA Pai Endowment chair on Laboratory Management. It will be contact based program with contact session scheduled for three days every month on April (7th-9th), May (5th-7th) and June (12th-14th)."
+            android:id="@+id/textView3"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:textColor="#800000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1st National open fide rated chess tournament &amp; National &apos;B&apos; chess championship for the blind– 2016"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="46dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#800000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date :Apr 26, 2016 | End Date :Apr 30, 2016"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:textSize="10sp"
+            android:textColor="#800000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="University is conducting &apos;1st National Open Fide Rated Chess Tournament&apos; &amp; &apos;National B Chess Championship for the Blind&apos; 2015 at Dr T.M.A PAI Halls, KMC"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textColor="#800000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2nd National Conference on Management of Modern Libraries (NACML) – 2016"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="46dp"
+            android:textColor="#800000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date :Feb 2, 2016 | End Date :Feb 3, 2016"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentStart="true"
+            android:textSize="10sp"
+            android:textColor="#800000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thank you for your co-operation, support and participation in the 2nd National Conference on Management of Modern Libraries (NACML)-2016 on the theme &apos;Role of New Information Professional in Digital Age&apos; on 19.2.2016 and 20.2.2016 at the SEARCH"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#800000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Architect of Modern University"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="46dp"
+            android:textColor="#800000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date :Aug 15, 2014 | End Date :Aug 15, 2014"
+            android:id="@+id/textView11"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentStart="true"
+            android:textSize="10sp"
+            android:textColor="#800000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" University celebrates the birthday of Chancellor, Dr Ramdas M Pai at a function on 17 September, 2013."
+            android:id="@+id/textView12"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textColor="#800000" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
